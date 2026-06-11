@@ -8,7 +8,15 @@ print(all_chars)
 
 #step1 随机字符生成
 def create_random_num(length):
-    code = ''.join(random.choice(all_chars)for _ in range(length))
+    char_list = []
+    # 循环length次
+    for i in range(length):
+        # 每次随机拿一个字符
+        one_char = random.choice(all_chars)
+        # 放进列表
+        char_list.append(one_char)
+    # 拼接列表所有字符
+    code = ''.join(char_list)
     return code
 
 
