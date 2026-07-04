@@ -1,1 +1,3 @@
+这是一个Python 复刻 Linux/macOS 系统自带 cat 命令的小程序：
+作用：接收用户传入的文本文件路径，读取并在控制台打印文件全部内容。
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat elit vel pretium pellentesque. Vivamus commodo leo sed lorem auctor elementum. Maecenas ut erat ut velit maximus luctus. Vestibulum varius justo et mauris tristique pharetra rutrum porta nulla. Nam porttitor lobortis posuere. Aenean erat nisl, aliquam id molestie in, luctus quis mauris. Donec fermentum vel quam in consectetur. Aliquam nec mauris quis tellus faucibus fermentum. Suspendisse ac maximus sem. Fusce feugiat non dui non gravida. Ut ac eleifend tellus. Vivamus consectetur finibus nisi. Etiam id odio vitae arcu aliquam tincidunt nec sit amet quam. 
