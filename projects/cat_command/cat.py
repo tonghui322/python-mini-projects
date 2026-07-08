@@ -36,6 +36,7 @@ def cli() -> argparse.Namespace:
         type=Path,
         help='Source.file'
     )
+    print(parser.parse_args())
     return parser.parse_args()
 
 def main():
