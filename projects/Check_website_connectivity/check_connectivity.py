@@ -1,4 +1,5 @@
 #读取websites.txt文件中的网站
+import requests as req
 
 def readFile(filePath):
     content = ''
@@ -13,8 +14,16 @@ def websiteStrToArr(fileContent):
     return arr
 
 #判断网站的访问状态
+def checkWebsite(website):
+    try:
+        r = req.get(website,timeout=5)
+        return r.status_code
+    except:
+        return 'error'
 
 
 if __name__ == "__main__":
     websiteStr = readFile("./websites.txt")
     websiteStrArr = websiteStrToArr(websiteStr)
+    for website in websiteStrArr:
+        print(website,checkWebsite(website))
